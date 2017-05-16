@@ -14,7 +14,7 @@ class Usuario{
         else
             return false;
         
-        $sql="SELECT * FROM acceso WHERE nomusuario='$this->nombre'";
+        $sql="SELECT * FROM acceso WHERE nomusuario='$this->nombre' and pwdusuario=md5($clavemd5";
         
         $resultado=$db->query($sql);
                
