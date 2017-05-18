@@ -1,6 +1,6 @@
 <?php
-/*session_start();
-$_SESSION["saludo"]="Hola Mundo";*/
+session_start();
+$_SESSION["saludo"]="Hola Mundo";
 ?>
 <!DOCTYPE html>
 <!--
@@ -15,6 +15,10 @@ and open the template in the editor.
     </head>
     <body>
         <a href="revision.php"> Revisi&oacute;n sesi&oacute;n</a>
+        <form>
+            <div></div>
+            
+        </form>
         <?php
             echo md5('#holamundo&');
             echo '<br>';
