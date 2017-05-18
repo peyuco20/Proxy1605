@@ -16,8 +16,9 @@ and open the template in the editor.
     <body>
         <a href="revision.php"> Revisi&oacute;n sesi&oacute;n</a>
         <form>
-            <div></div>
-            
+            <div><label>Usuario</label><input type="text" name="nombre"></div>
+            <div><label>Usuario</label><input type="password" name="clave"></div>
+            <input type="submit" value="acceder">
         </form>
         <?php
             echo md5('#holamundo&');
